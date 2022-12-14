@@ -18,7 +18,7 @@
 
 .jumbotron {
     /* debug */
-    background-color: aqua;
+    background-color: #b4d0e7;
     padding: 2rem;
 }
 
@@ -155,7 +155,7 @@
 
 .try-free {
     /* debug */
-    background-color: aqua;
+    background-color: #b4d0e7;
     padding: 2rem 0;
 }
 
@@ -172,3 +172,19 @@
 }
 
 /* FOOTER */
+
+footer {
+    background-color: #111;
+}
+
+footer > .big-container {
+    display: flex;
+    padding: 2rem 0;
+}
+
+footer .footer-col {
+    width: 20%;
+    /* debug */
+    height: 25rem;
+    border: 1px solid white;
+}
