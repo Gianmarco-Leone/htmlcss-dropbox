@@ -97,4 +97,78 @@
     height: 20rem;
 }
 
+/* Section 4 */
+
+.functionality.small-container {
+    padding: 2rem 0;
+}
+
+.functionality-text {
+    /* debug */
+    height: 10rem;
+    background-color: yellow;
+}
+
+.functionality.row {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: .5rem;
+}
+
+.functionality .card {
+    width: 30%;
+    /* debug */
+    background-color: red;
+    height: 15rem;
+}
+
+/* Section 5 */
+
+.members {
+    display: flex;
+    /* debug */
+    height: 32vw;
+}
+
+.members-side-col {
+    width: 32vw;
+    display: flex;
+    flex-wrap: wrap;
+    /* debug */
+    background-color: green;
+}
+
+.members-main-col {
+    width: 36vw;
+    /* debug */
+    background-color: coral;
+}
+
+.members-side-col > .square {
+    height: 50%;
+    width: 50%;
+    background-color: brown;
+    border: 1px solid black;
+}
+
+/* Section 6 */
+
+.try-free {
+    /* debug */
+    background-color: aqua;
+    padding: 2rem 0;
+}
+
+/* Section 7 */
+
+.answer {
+    padding: 2rem 0;
+}
+
+.answer.small-container > .content {
+    /* debug */
+    background-color: bisque;
+    height: 15rem;
+}
+
 /* FOOTER */
