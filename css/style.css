@@ -4,15 +4,14 @@ body {
     font-family: 'Open Sans' , sans-serif;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
 .btn {
-    padding: .3rem;
+    padding: .4rem;
     border: none;
     cursor: pointer;
+}
+
+strong {
+    font-weight: bold;
 }
 
 /* HEADER */
@@ -23,6 +22,11 @@ a {
     justify-content: space-between;
     align-items: center;
     color: #3b3b3b;
+}
+
+.header-nav a {
+    text-decoration: none;
+    color: inherit;
 }
 
 .nav-col {
@@ -88,20 +92,40 @@ a {
     top: 8rem;
 }
 
-
 /* MAIN */
 
 /* Section 1 */
 
-.subscription.small-container {
-    /* debug */
-    padding: 2rem 0;
+section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 1rem 0;
 }
 
-.subscription-text {
-    /* debug */
-    height: 10rem;
-    background-color: yellow;
+.subscription.small-container {
+    padding: 3rem 0;
+}
+
+.subscription .payment {
+    display: inline-block;
+    color: #3b3b3b;
+    margin: 1rem 2rem 2rem 0;
+}
+
+.circle {
+    display: inline-block;
+    width: .8rem;
+    height: .8rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.unclicked.circle {
+    border: 2px solid lightgray;
+}
+
+.clicked.circle {
+    border: 4px solid #005bff;
 }
 
 .row {
@@ -114,9 +138,55 @@ a {
 
 .subscription-col {
     width: 30%;
-    /* debug */
-    background-color: red;
-    height: 25rem;
+    border: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+}
+
+.subscription-col-title {
+    display: inline-block;
+    width: 100%;
+    border-bottom: 1px solid lightgray;
+    text-align: center;
+}
+
+.subscription-col-content {
+    display: flex;
+    flex-direction: column;
+    padding: 3rem .8rem;
+    gap: 1rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+.light-text {
+    color: lightgray;
+}
+
+.subscription-col ul {
+    list-style-type: none;
+}
+
+.subscription-col ul > li {
+    padding: .4rem 0;
+}
+
+.subscription-col .btn {
+    text-align: center;
+    margin: 1rem 2rem;
+}
+
+.check > i {
+    color: #005bff;
+}
+
+.subscription-col-content hr {
+    max-width: 3rem;
+    margin: 2rem 0;
 }
 
 /* Section 2 */
