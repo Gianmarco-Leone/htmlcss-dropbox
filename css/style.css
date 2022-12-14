@@ -8,10 +8,18 @@ body {
     padding: .4rem;
     border: none;
     cursor: pointer;
+    text-align: center;
 }
 
 strong {
     font-weight: bold;
+}
+
+
+h3 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 1rem 0;
 }
 
 /* HEADER */
@@ -157,12 +165,6 @@ section h2 {
     gap: 1rem;
 }
 
-h3 {
-    font-size: 1.3rem;
-    font-weight: bold;
-    margin: 1rem 0;
-}
-
 .light-text {
     color: lightgray;
 }
@@ -176,7 +178,6 @@ h3 {
 }
 
 .subscription-col .btn {
-    text-align: center;
     margin: 1rem 2rem;
 }
 
@@ -204,10 +205,19 @@ h3 {
 
 .big-col {
     width: 60%;
+    padding: 0 0 2rem 2rem;
+}
+
+.contact p {
+    margin-top: 5rem;
 }
 
 .small-col {
     width: 40%;
+}
+
+.contact .btn {
+    margin: 2rem 5rem;
 }
 
 /* Section 3 */
