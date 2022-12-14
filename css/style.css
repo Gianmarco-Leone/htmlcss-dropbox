@@ -1,3 +1,15 @@
+/* GENERICS */
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.btn {
+    padding: .3rem;
+    border: none;
+}
+
 /* HEADER */
 
 .header-nav {
@@ -5,16 +17,32 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* debug */
-    background-color: orange;
+    color: #3b3b3b;
 }
 
 .nav-col {
-    /* debug */
-    border: 1px dashed black;
-    height: 100%;
-    width: 50%;
+    display: flex;
+    align-items: center;
 }
+
+.right.nav-col {
+    justify-content: flex-end;
+}
+
+.header-nav ul > li {
+    display: inline-block;
+    margin: 0 .8rem;
+}
+
+.left.nav-col > img {
+    margin: 0 .6rem 0 .8rem;
+}
+
+.btn.blue-btn {
+    background-color: #005bff;
+    color: #fff;
+}
+
 
 .jumbotron {
     /* debug */
