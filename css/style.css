@@ -11,6 +11,16 @@ body {
     text-align: center;
 }
 
+.btn.blue-btn {
+    background-color: #005bff;
+    color: #fff;
+}
+
+.btn.outlined-btn {
+    color: inherit;
+    border: 1px solid black;
+}
+
 strong {
     font-weight: bold;
 }
@@ -54,12 +64,6 @@ h3 {
 .left.nav-col > img {
     margin: 0 .6rem 0 .8rem;
 }
-
-.btn.blue-btn {
-    background-color: #005bff;
-    color: #fff;
-}
-
 
 .jumbotron {
     background-color: #b4d0e7;
@@ -221,14 +225,13 @@ section h2 {
 }
 
 /* Section 3 */
-
-/* debug */
-.partner .big-col {
-    height: 20rem;
+.partner img {
+    max-width: 85%;
+    text-align: center;
 }
 
-.partner .small-col {
-    height: 20rem;
+.partner .btn {
+    margin: 5rem 15rem 0 0;
 }
 
 /* Section 4 */
