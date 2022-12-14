@@ -102,6 +102,7 @@ h3 {
     font-size: 2.5rem;
     position: relative;
     top: 8rem;
+    color: black;
 }
 
 /* MAIN */
@@ -240,13 +241,8 @@ section h2 {
     padding: 2rem 0;
 }
 
-.functionality-text {
-    /* debug */
-    height: 10rem;
-    background-color: yellow;
-}
-
 .functionality.row {
+    margin-top: 3rem;
     justify-content: space-between;
     flex-wrap: wrap;
     row-gap: .5rem;
@@ -254,9 +250,24 @@ section h2 {
 
 .functionality .card {
     width: 30%;
-    /* debug */
-    background-color: red;
-    height: 15rem;
+}
+
+.functionality .card > p {
+    font-size: .8rem;
+}
+
+
+.functionality .card img {
+    max-height: 15rem;
+}
+
+.functionality-bottom-text {
+    width: 60%;
+    margin: 8rem 0 3rem;
+}
+
+.functionality-bottom-text > h2 {
+    margin-bottom: 3rem;
 }
 
 /* Section 5 */
