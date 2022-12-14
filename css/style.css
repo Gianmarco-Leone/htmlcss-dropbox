@@ -1,5 +1,9 @@
 /* GENERICS */
 
+body {
+    font-family: 'Open Sans' , sans-serif;
+}
+
 a {
     text-decoration: none;
     color: inherit;
@@ -8,12 +12,13 @@ a {
 .btn {
     padding: .3rem;
     border: none;
+    cursor: pointer;
 }
 
 /* HEADER */
 
 .header-nav {
-    height: 5rem;
+    height: 4rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,17 +50,44 @@ a {
 
 
 .jumbotron {
-    /* debug */
     background-color: #b4d0e7;
     padding: 2rem;
+    margin-bottom: 3rem;
 }
 
 .jumbotron > .big-container {
-    /* debug */
-    background-color: blue;
-    height: 35rem;
-    
+    height: 38rem; 
 }
+
+.jumbotron h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin: 1.5rem 0;
+}
+
+.jumbotron-bottom {
+    display: flex;
+}
+
+.jumbotron-bottom > .jumbotron-small-col {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: flex-start;
+    max-width: 15rem;
+}
+
+.jumbotron-bottom p,
+.jumbotron-bottom span {
+    font-size: .8rem;
+}
+
+.jumbotron-bottom .jumbotron-small-col > a {
+    font-size: 2.5rem;
+    position: relative;
+    top: 8rem;
+}
+
 
 /* MAIN */
 
@@ -102,16 +134,10 @@ a {
 
 .big-col {
     width: 60%;
-    /* debug */
-    background-color: darkgreen;
-    height: 5rem;
 }
 
 .small-col {
     width: 40%;
-    /* debug */
-    background-color: lightgreen;
-    height: 5rem;
 }
 
 /* Section 3 */
