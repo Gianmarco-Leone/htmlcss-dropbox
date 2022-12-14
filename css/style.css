@@ -31,4 +31,70 @@
 
 /* MAIN */
 
+/* Section 1 */
+
+.subscription.small-container {
+    /* debug */
+    padding: 2rem 0;
+}
+
+.subscription-text {
+    /* debug */
+    height: 10rem;
+    background-color: yellow;
+}
+
+.row {
+    display: flex;
+}
+
+.subscription.row {
+    justify-content: space-between;
+}
+
+.subscription-col {
+    width: 30%;
+    /* debug */
+    background-color: red;
+    height: 25rem;
+}
+
+/* Section 2 */
+.contact.small-container {
+    border: 1px solid gray;
+    /* debug */
+    margin-bottom: 2rem;
+}
+
+.contact.small-container > span {
+    display: block;
+    border-bottom: 1px solid gray;
+    text-align: center;
+}
+
+.big-col {
+    width: 60%;
+    /* debug */
+    background-color: darkgreen;
+    height: 5rem;
+}
+
+.small-col {
+    width: 40%;
+    /* debug */
+    background-color: lightgreen;
+    height: 5rem;
+}
+
+/* Section 3 */
+
+/* debug */
+.partner .big-col {
+    height: 20rem;
+}
+
+.partner .small-col {
+    height: 20rem;
+}
+
 /* FOOTER */
