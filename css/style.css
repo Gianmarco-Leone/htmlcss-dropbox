@@ -1,5 +1,4 @@
 /* GENERICS */
-
 body {
     font-family: 'Open Sans' , sans-serif;
 }
@@ -33,7 +32,6 @@ h3 {
 }
 
 /* HEADER */
-
 .header-nav {
     height: 4rem;
     display: flex;
@@ -108,7 +106,6 @@ h3 {
 /* MAIN */
 
 /* Section 1 */
-
 section h2 {
     font-size: 2.5rem;
     font-weight: bold;
@@ -186,6 +183,16 @@ section h2 {
     margin: 1rem 2rem;
 }
 
+/* ALLINEO BOTTONI */
+
+#single-btn {
+    margin-top: 3.8rem;
+}
+
+#team-btn {
+    margin-top: 2.4rem;
+}
+
 .check > i {
     color: #005bff;
 }
@@ -198,7 +205,6 @@ section h2 {
 /* Section 2 */
 .contact.small-container {
     border: 1px solid gray;
-    /* debug */
     margin-bottom: 2rem;
 }
 
@@ -236,7 +242,6 @@ section h2 {
 }
 
 /* Section 4 */
-
 .functionality.small-container {
     padding: 2rem 0;
 }
