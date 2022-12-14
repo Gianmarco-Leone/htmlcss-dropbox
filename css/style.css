@@ -1,0 +1,34 @@
+/* HEADER */
+
+.header-nav {
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* debug */
+    background-color: orange;
+}
+
+.nav-col {
+    /* debug */
+    border: 1px dashed black;
+    height: 100%;
+    width: 50%;
+}
+
+.jumbotron {
+    /* debug */
+    background-color: aqua;
+    padding: 2rem;
+}
+
+.jumbotron > .big-container {
+    /* debug */
+    background-color: blue;
+    height: 35rem;
+    
+}
+
+/* MAIN */
+
+/* FOOTER */
