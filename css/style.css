@@ -145,6 +145,8 @@ body {
 
 .subscription-col ul {
     list-style-type: none;
+    /* Allineo liste col tra di loro */
+    height: 10rem;
 }
 
 .subscription-col ul > li {
@@ -159,16 +161,6 @@ body {
 
 .subscription-col .btn {
     margin: 1rem 2rem;
-}
-
-/* ALLINEO BOTTONI */
-
-#single-btn {
-    margin-top: 3.8rem;
-}
-
-#team-btn {
-    margin-top: 2.4rem;
 }
 
 .check > i {
