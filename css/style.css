@@ -276,7 +276,6 @@ section h2 {
 }
 
 /* Section 5 */
-
 .members {
     display: flex;
 }
@@ -354,7 +353,6 @@ section h2 {
 }
 
 /* Section 6 */
-
 .try-free {
     background-color: #b4d0e7;
 }
@@ -378,31 +376,69 @@ section h2 {
 }
 
 /* Section 7 */
-
 .answer {
     padding: 2rem 0;
+    margin: 5rem auto;
 }
 
-.answer.small-container > .content {
-    /* debug */
-    background-color: bisque;
-    height: 15rem;
+.answer div {
+    padding: 1.5rem 0;
+}
+
+.answer h2 {
+    padding-bottom: 2rem;
+}
+
+.answer-row > a {
+    margin-left: 22rem;
+}
+
+.answer-border {
+    border-bottom: 1px solid lightgray;
 }
 
 /* FOOTER */
 
 footer {
     background-color: #111;
+    padding-top: 2rem;
 }
 
-footer > .big-container {
+footer  .footer-top {
     display: flex;
-    padding: 2rem 0;
+    padding: 3rem 0;
 }
 
 footer .footer-col {
     width: 20%;
-    /* debug */
-    height: 25rem;
-    border: 1px solid white;
+    color: white;
+    min-width: 15rem;
 }
+
+footer ul {
+    list-style-type: none;
+    margin-top: 2rem;
+}
+
+footer ul > li {
+    margin: 1rem 0;
+}
+
+footer ul  a {
+    color: white;
+    text-decoration: none;
+}
+
+footer hr {
+    width: 10%;
+}
+
+.footer-bottom {
+    color: gray;
+    padding: 2rem 0;
+}
+
+footer .language::after {
+    content: '\25B4';
+}
+
