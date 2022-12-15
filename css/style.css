@@ -3,6 +3,10 @@ body {
     font-family: 'Open Sans' , sans-serif;
 }
 
+.row {
+    display: flex;
+}
+
 .btn {
     padding: .4rem;
     border: none;
@@ -136,10 +140,6 @@ section h2 {
 
 .clicked.circle {
     border: 4px solid #005bff;
-}
-
-.row {
-    display: flex;
 }
 
 .subscription.row {
@@ -356,9 +356,25 @@ section h2 {
 /* Section 6 */
 
 .try-free {
-    /* debug */
     background-color: #b4d0e7;
-    padding: 2rem 0;
+}
+
+.try-free .row {
+    align-items: center;
+    padding: 3rem 0;
+}
+
+.try-free .big-col {
+    padding: 0;
+    color: #61082B;
+}
+
+.try-free .small-col {text-align: center;}
+
+.try-free .btn {
+    border: none;
+    margin-bottom: 3rem;
+    padding: .5rem 3rem;
 }
 
 /* Section 7 */
