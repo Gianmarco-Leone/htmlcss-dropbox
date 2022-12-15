@@ -53,7 +53,7 @@ body {
 }
 
 .jumbotron > .big-container {
-    height: 38rem; 
+    max-height: 38rem; 
 }
 
 .jumbotron h1 {
@@ -70,7 +70,6 @@ body {
     display: flex;
     flex-direction: column;
     gap: 2rem;
-    align-items: flex-start;
     max-width: 15rem;
 }
 
@@ -81,8 +80,8 @@ body {
 
 .jumbotron-bottom .jumbotron-small-col > a {
     font-size: 2.5rem;
-    position: relative;
-    top: 8rem;
+    margin-top: auto;
+    padding-bottom: 5rem;
     color: black;
 }
 
