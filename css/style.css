@@ -279,29 +279,78 @@ section h2 {
 
 .members {
     display: flex;
-    /* debug */
-    height: 32vw;
 }
 
-.members-side-col {
-    width: 32vw;
+.members-col.side-col {
+    width: calc(100% / 3);
     display: flex;
     flex-wrap: wrap;
-    /* debug */
-    background-color: green;
 }
 
-.members-main-col {
-    width: 36vw;
-    /* debug */
-    background-color: coral;
+.members-col.main-col {
+    width: 40%;
+    background-color: #F5F5F5;
+    padding: 3rem;
 }
 
-.members-side-col > .square {
-    height: 50%;
+.members-col.main-col > img {
+    width: 60%;
+}
+
+.members-col.main-col > hr {
+    width: 20%;
+    margin: 2rem 0;
+}
+
+.members-col.main-col > p {
+    margin-bottom: 2rem;
+}
+
+.square-logo {
     width: 50%;
-    background-color: brown;
-    border: 1px solid black;
+    height: calc(100vw / 3 / 2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square-logo > img {
+    width: 50%;
+    filter: invert(1);
+}
+
+/* Logo Colors */
+#bg-designit {
+    background-color: #A2D39B;
+    border: 15px solid #D1E9CD;
+}
+
+#bg-arizona {
+    background-color: #61082B;
+}
+
+#bg-florida {
+    background-color: #0093CE;
+}
+
+#bg-topps {
+    background-color: #FF1C1C;
+}
+
+#bg-bicycle {
+    background-color: #D5001F;
+}
+
+#bg-hearts {
+    background-color: #B4D0E7;
+}
+
+#bg-lonely {
+    background-color: #0D2481;
+}
+
+#bg-channel {
+    background-color: #FFD830;
 }
 
 /* Section 6 */
