@@ -20,6 +20,49 @@
 	margin: 0 auto;
 }
 
+
+.row {
+    display: flex;
+}
+
+.btn {
+    padding: .4rem;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+	transition: 1s;
+}
+
+.btn:hover {
+	opacity: 0.5;
+}
+
+.btn.blue-btn {
+    background-color: #005bff;
+    color: #fff;
+}
+
+.btn.outlined-btn {
+    color: inherit;
+    border: 1px solid black;
+}
+
+strong {
+    font-weight: bold;
+}
+
+section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+h3 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
 .clearfix::after {
 	content: '';
 	clear: both;

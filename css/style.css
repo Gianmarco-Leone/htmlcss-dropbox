@@ -3,50 +3,29 @@ body {
     font-family: 'Open Sans' , sans-serif;
 }
 
-.row {
-    display: flex;
-}
-
-.btn {
-    padding: .4rem;
-    border: none;
-    cursor: pointer;
-    text-align: center;
-}
-
-.btn.blue-btn {
-    background-color: #005bff;
-    color: #fff;
-}
-
-.btn.outlined-btn {
-    color: inherit;
-    border: 1px solid black;
-}
-
-strong {
-    font-weight: bold;
-}
-
-
-h3 {
-    font-size: 1.4rem;
-    font-weight: bold;
-    margin: 1rem 0;
-}
-
 /* HEADER */
 .header-nav {
+    background-color: #fff;
     height: 4rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     color: #3b3b3b;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .header-nav a {
     text-decoration: none;
     color: inherit;
+    display: block;
+    height: 4rem;
+    line-height: 4rem;
+}
+
+.header-nav a:hover {
+    border-bottom: 2px solid black;
 }
 
 .nav-col {
@@ -69,7 +48,7 @@ h3 {
 
 .jumbotron {
     background-color: #b4d0e7;
-    padding: 2rem;
+    padding: 10rem 2rem 2rem;
     margin-bottom: 3rem;
 }
 
@@ -110,12 +89,6 @@ h3 {
 /* MAIN */
 
 /* Section 1 */
-section h2 {
-    font-size: 2.5rem;
-    font-weight: bold;
-    margin: 1rem 0;
-}
-
 .subscription.small-container {
     padding: 3rem 0;
 }
@@ -391,10 +364,33 @@ section h2 {
 
 .answer-row > a {
     margin-left: 22rem;
+    color: black;
 }
 
 .answer-border {
     border-bottom: 1px solid lightgray;
+}
+
+.answer p {
+    max-width: 80%;
+    margin-top: 1rem;
+    display: none;
+}
+
+.answer div:hover > p {
+    display: block;
+}
+
+.answer .icon-hover {
+    display: none;
+}
+
+.answer div:hover > .icon-view {
+    display: none;
+}
+
+.answer div:hover > .icon-hover {
+    display: inline-block;
 }
 
 /* FOOTER */
