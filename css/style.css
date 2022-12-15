@@ -149,6 +149,12 @@ body {
 
 .subscription-col ul > li {
     padding: .4rem 0;
+    display: flex;
+}
+
+.subscription-col li > i {
+    padding-top: .2rem;
+    padding-right: .5rem;
 }
 
 .subscription-col .btn {
