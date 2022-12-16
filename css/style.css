@@ -132,7 +132,7 @@ body {
 
 .subscription-col ul {
     /* Allineo liste col tra di loro */
-    height: 10rem;
+    min-height: 11rem;
 }
 
 .subscription-col ul > li {
